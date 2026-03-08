@@ -74,7 +74,7 @@ This method sets up a headless environment inside the container using **TigerVNC
 
 * Docker
 * Docker Compose
-* VNC client (e.g 'tigervnc-viewer')
+* VNC client (e.g `tigervnc-viewer`)
 
 ### Usage
 
