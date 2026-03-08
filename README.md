@@ -48,7 +48,7 @@ docker-compose up --build
 
 4. when you get done from it ungrant the permissions:
 ```bash
-xhost +local:docker
+xhost -local:docker
 
 ```
 
@@ -74,8 +74,8 @@ This method sets up a headless environment inside the container using **TigerVNC
 
 * Docker
 * Docker Compose
-* `vncviewer`
-*
+* VNC client (e.g 'tigervnc-viewer')
+
 ### Usage
 
 1. Navigate to the directory:
