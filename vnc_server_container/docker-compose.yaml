@@ -1,0 +1,9 @@
+services:
+  gui-app:
+    build:
+      dockerfile: Dockerfile
+    environment:
+      - VNC_PASSWORD=secret
+      - TERMINAL=st
+    ports:
+      - "5901:5901"
