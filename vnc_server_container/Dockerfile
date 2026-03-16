@@ -34,4 +34,4 @@ RUN chmod +x /home/vncuser/.vnc/xstartup
 EXPOSE 5901
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["Vncserver", "-localhost", "no", "-geometry", "1920x1080", "-depth", "24", ":1", "-fg"]
+CMD ["vncserver", "-localhost", "no", "-geometry", "1920x1080", "-depth", "24", ":1", "-fg"]

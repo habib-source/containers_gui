@@ -1,0 +1,10 @@
+services:
+  gui-app:
+    build:
+      dockerfile: Dockerfile
+    environment:
+      - USER=habib
+      - USER_PASS=Passw0rd
+      - SUDO_USER=yes
+    ports:
+      - "3389:3389"
