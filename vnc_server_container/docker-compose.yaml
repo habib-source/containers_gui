@@ -4,6 +4,9 @@ services:
       dockerfile: Dockerfile
     environment:
       - VNC_PASSWORD=secret
+      - USER=habib
+      - USER_PASS=Passw0rd
+      - SUDO_USER=yes
       - TERMINAL=st
     ports:
       - "5901:5901"
